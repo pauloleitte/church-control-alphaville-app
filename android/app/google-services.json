@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "321544719651",
+    "project_id": "church-control-28e53",
+    "storage_bucket": "church-control-28e53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321544719651:android:97bc09f6f0cbc8735f9096",
+        "android_client_info": {
+          "package_name": "com.adb.vilayara.church_control"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321544719651-dj7qtie09l73c3oa3hmckjapnd7ht6eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACgeRHld1EXdWemcLuIirziCEojhnrgb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321544719651-1usb3f30rm3bgg14h9aguaqf1dqrutpf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "321544719651-io3muk009vt0k47lc82gqjit1jkpkqem.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.churchControl"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

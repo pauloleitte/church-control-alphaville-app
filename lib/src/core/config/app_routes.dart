@@ -1,0 +1,54 @@
+// ignore_for_file: constant_identifier_names
+
+class AppRoutes {
+  static const SPLASH = '/';
+  static const START = '/start';
+  static const AUTH = '/auth';
+  static const AUTH_LOGIN = '/auth/login';
+  static const AUTH_SIGNUP = '/auth/signup';
+  static const HOME = '/start/home';
+  static const CONFIG = '/start/config';
+  static const CONFIG_PROFILE = '/start/config/profile';
+  static const CONFIG_SECURITY = '/start/config/security';
+  static const CEREMONY = '/start/management/ceremony';
+  static const CEREMONY_FORM = '/start/management/ceremony/form';
+  static const CEREMONY_DETAIL = '/start/management/ceremony/detail';
+  static const CEREMONY_NOTICE = '/start/management/ceremony/notice';
+  static const CEREMONY_VISITOR = '/start/management/ceremony/visitor';
+  static const CEREMONY_PRAYER = '/start/management/ceremony/prayer';
+  static const VISITOR = '/start/management/visitor';
+  static const VISITOR_DETAIL = '/start/management/visitor/detail';
+  static const VISITOR_FORM = '/start/management/visitor/form';
+  static const NOTICE = '/start/management/notice';
+  static const NOTICE_FORM = '/start/management/notice/form';
+  static const NOTICE_DETAIL = '/start/management/notice/detail';
+  static const MEMBER = '/start/management/member';
+  static const MEMBER_FORM = '/start/management/member/form';
+  static const MEMBER_DETAIL = '/start/management/member/detail';
+  static const DEPARTMENT = '/start/management/department';
+  static const DEPARTMENT_DETAIL = '/start/management/department/detail';
+  static const DEPARTMENT_FORM = '/start/management/department/form';
+  static const DEPARTMENT_MEMBER = '/start/management/department/member';
+  static const DEPARTMENT_NOTICE = '/start/management/department/notice';
+  static const PRAYER = '/start/management/prayer';
+  static const PRAYER_DETAIL = '/start/management/prayer/detail';
+  static const PRAYER_FORM = '/start/management/prayer/form';
+  static const USER = '/start/management/user';
+  static const USER_FORM = '/start/management/user/form';
+  static const MANAGEMENT = '/start/management';
+  static const EBD = '/start/ebd';
+  static const STUDENT = '/start/ebd/student';
+  static const STUDENT_DETAIL = '/start/ebd/student/detail';
+  static const STUDENT_FORM = '/start/ebd/student/form';
+  static const GROUP = '/start/ebd/group';
+  static const GROUP_DETAIL = '/start/ebd/group/detail';
+  static const GROUP_FORM = '/start/ebd/group/form';
+  static const LESSON = '/start/ebd/lesson';
+  static const LESSON_DETAIL = '/start/ebd/lesson/detail';
+  static const LESSON_ATTENDANCE = '/start/ebd/lesson/attendance';
+  static const LESSON_FORM = '/start/ebd/lesson/form';
+  static const USER_EBD = '/start/ebd/user';
+  static const DASHBOARD_EBD = '/start/ebd/dashboard';
+  static const DASHBORAD_LIGHTHOUSE_REPORT_EBD  = '/start/ebd/dashboard/lighthouse-report';
+  static const DASHBOARD_DAILY_REPORT_EBD = '/start/ebd/dashboard/daily-report';
+}
