@@ -9,3 +9,9 @@ App for control your church.
 - flutter build appbundle --no-tree-shake-icons
 - flutter pub run change_app_package_name:main com.adb.vilayara.church_control
 - dart compile js --libraries-spec=C:/Users/plet/flutter_windows_3.3.4-stable/flutter/bin/cache/flutter_web_sdk/libraries.json -o process-image-worker.js lib/src/shared/utils/process_image_worker.dart
+
+
+## Firebase commands
+- firebase login
+- firebase init
+- firebase deploy

@@ -8,8 +8,8 @@ class AppConstants {
       "BHKYsfo2L1vpJPhVnlR8INiN3T2MfE3dey5uPMda0xazcBqLycS8n1RU3msqyciC9rQ-83nsylS3u6bZuAdgkY0";
   static const PATH_USER = "users";
   static const API_URL = kReleaseMode
-      ? "https://church-control-api-5snxldjlxq-uc.a.run.app/api/v1"
-      : "https://church-control-api-5snxldjlxq-uc.a.run.app/api/v1";
+      ? "https://church-control-alphaville-321544719651.us-central1.run.app/api/v1"
+      : "https://church-control-alphaville-321544719651.us-central1.run.app/api/v1";
   static const PRIMARY_COLOR = "#000000";
   static const GENRE_LIST = ["Masculino", "Feminino"];
   static const ADMIN_ROLE = "admin";

@@ -82,9 +82,9 @@ class ThemeHelper {
   DropdownMenuThemeData dropdownMenuTheme() {
     return DropdownMenuThemeData(
       menuStyle: MenuStyle(
-        surfaceTintColor: MaterialStateProperty.all(Colors.white),
-        backgroundColor: MaterialStateProperty.all(Colors.white),
-        elevation: MaterialStateProperty.all(2),
+        surfaceTintColor: WidgetStateProperty.all(Colors.white),
+        backgroundColor: WidgetStateProperty.all(Colors.white),
+        elevation: WidgetStateProperty.all(2),
       ),
       textStyle: TextStyle(
         color: primaryColor,
@@ -118,8 +118,8 @@ class ThemeHelper {
   CheckboxThemeData checkboxThemeData() {
     return CheckboxThemeData(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-      fillColor: MaterialStateProperty.all(secondaryColor),
-      checkColor: MaterialStateProperty.all(primaryColor),
+      fillColor: WidgetStateProperty.all(secondaryColor),
+      checkColor: WidgetStateProperty.all(primaryColor),
     );
   }
 
@@ -174,9 +174,9 @@ class ThemeHelper {
 
   ButtonStyle buttonStyle(BuildContext context) {
     return ButtonStyle(
-      minimumSize: MaterialStateProperty.all(const Size.fromRadius(10)),
+      minimumSize: WidgetStateProperty.all(const Size.fromRadius(10)),
       backgroundColor:
-          MaterialStateProperty.all(Theme.of(context).primaryColor),
+          WidgetStateProperty.all(Theme.of(context).primaryColor),
     );
   }
 
@@ -234,7 +234,7 @@ class ThemeHelper {
       actions: [
         TextButton(
           style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(secondaryColor)),
+              backgroundColor: WidgetStateProperty.all(secondaryColor)),
           onPressed: () {
             Navigator.of(context).pop();
           },

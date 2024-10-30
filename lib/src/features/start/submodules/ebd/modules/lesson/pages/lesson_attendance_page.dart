@@ -86,7 +86,7 @@ class _LessonAttendancePageState extends State<LessonAttendancePage> {
                       final item = copy[i];
                       return CheckboxListTile(
                         checkColor: Theme.of(context).primaryColor,
-                        fillColor: MaterialStateProperty.all(Theme.of(context).colorScheme.secondary),
+                        fillColor: WidgetStateProperty.all(Theme.of(context).colorScheme.secondary),
                         value: _selectedItems.contains(item.sId),
                         title: Text(item.name),
                         controlAffinity: ListTileControlAffinity.leading,
